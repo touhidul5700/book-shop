@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f2fbea;
+    /* //font style// */
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* //header-part-start// */
+header {
+    background-image: linear-gradient(-180deg, #00000004, #312f5b), url(../img/thank-header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+}
+
+h1 {
+    flex: 10;
+    font-size: 50px;
+}
+
+/* //nav-start// */
+nav {
+    display: flex;
+    text-align: right;
+    flex: 1;
+    gap: 30px;
+    font-weight: 600;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a button {
+    padding: 5px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(35, 188, 188);
+    border: none;
+}
+
+/* //nav end// */
+
+header h2 {
+    color: rgb(23, 230, 50);
+    margin: 50px;
+    font-size: 40px;
+    padding-bottom: 100px;
+}
+
+/* //thankink-part// */
+.thanking-part {
+    text-align: center;
+    padding: 50px;
+}
+
+.thanking-part p {
+    font-size: 20px;
+    word-spacing: 5px;
+    color: rgb(224, 208, 60);
+    line-height: 10px;
+    font-weight: 600;
+}
+
+.thanking-part.thanking-part button {
+    padding: 5px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(35, 188, 188);
+    border: none;
+    margin: 50px;
+}
+
+/* //footer// */
+footer {
+    text-align: center;
+    color: white;
+    background-color: #312b4a;
+    padding: 20px;
+}
+
+/* //mobile part start */
+@media(max-width:767px) {
+    header {
+        text-align: center;
+    }
+
+    h1 {
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        background-color: black;
+        padding: 0 30px;
+        border-radius: 20px;
+    }
+
+    header .header-top {
+        flex-direction: column;
+    }
+
+    .thanking-part p {
+        line-height: 40px;
+        color: bisque;
+    }
+}
